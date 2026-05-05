@@ -1,0 +1,137 @@
+:root {
+  /* --- DARK MODE --- */
+  --bg-body: #0f172a;
+  --bg-card: #1e293b;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --accent-color: #6366f1;
+
+  --tag-bg: #312e81;
+  --tag-text: #c7d2fe;
+}
+
+/* --- LIGHT MODE --- */
+[data-theme="light"] {
+  --bg-body: #f8fafc;
+  --bg-card: #e4e4e4;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --accent-color: #4f46e5;
+
+  --tag-bg: #f1f5f9;
+  --tag-text: #475569;
+}
+
+/* Base Styles using Variables */
+body {
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Header & Toggle Button */
+.header {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px 0;
+}
+
+.theme-toggle {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+/* User Card updated to use Variables */
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px var(--shadow-color);
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border-color);
+  margin-bottom: 16px;
+  padding: 4px;
+}
+
+.user-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0 0 8px 0;
+}
+
+.user-gender-tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  padding: 4px 14px;
+  border-radius: 99px;
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  margin-bottom: 20px;
+}
+
+.user-details {
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
