@@ -4,7 +4,7 @@ A beautiful, responsive Random Cat Viewer built with React. Discover different c
 
 ## Live Demo
 
-[https://meow-viewer-peach.vercel.app/](https://meow-viewer-peach.vercel.app/)
+[https://cute-meow.netlify.app/](https://cute-meow.netlify.app/)
 
 ## Features
 
@@ -41,15 +41,12 @@ src/
 
 ```bash
 # Clone the repo
-git clone https://github.com/babitakry/meow-viewer.git
-cd meow-viewer
+git clone https://github.com/AsifKhan-tech/React-projects/tree/main/random-cat
+cd random-cat
 
 # Install dependencies
-npm install
+npm i
 
 # Start the dev server
 npm run dev
 ```
-
-
-
