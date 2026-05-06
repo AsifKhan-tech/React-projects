@@ -4,9 +4,18 @@ import Sidebar from "./components/Sidebar.jsx";
 import VideoGrid from "./components/VideoGrid.jsx";
 
 const CATEGORIES = [
-  "All", "Music", "Mixes", "Gaming", "Live", "Programming", 
-  "News", "Podcasts", "Lessons", "Recently uploaded", 
-  "Watched", "New to you"
+  "All",
+  "Music",
+  "Mixes",
+  "Gaming",
+  "Live",
+  "Programming",
+  "News",
+  "Podcasts",
+  "Lessons",
+  "Recently uploaded",
+  "Watched",
+  "New to you",
 ];
 
 function App() {
@@ -32,13 +41,13 @@ function App() {
           {/* Categories bar */}
           <div className="sticky top-14 bg-yt-bg z-40 px-4 py-3 flex gap-3 overflow-x-auto scrollbar-hide">
             {CATEGORIES.map((cat) => (
-              <button 
+              <button
                 key={cat}
                 onClick={() => handleCategorySelect(cat)}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
                   selectedCategory === cat && !searchQuery
-                    ? 'bg-white text-black' 
-                    : 'bg-yt-hover hover:bg-[#3f3f3f] text-white'
+                    ? "bg-white text-black"
+                    : "bg-yt-hover hover:bg-[#3f3f3f] text-white"
                 }`}
               >
                 {cat}

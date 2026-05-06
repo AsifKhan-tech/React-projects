@@ -1,8 +1,8 @@
 # 📺 NovaTube - YouTube Style Video Listing UI
 
-NovaTube is a professional, high-performance video listing interface built with React and Tailwind CSS. It leverages the FreeAPI YouTube endpoint to provide a real-world video browsing experience with features like category filtering, live search, and seamless pagination.
+`LatteTube` is a professional, high-performance video listing interface built with React and Tailwind CSS. It leverages the FreeAPI YouTube endpoint to provide a real-world video browsing experience with features like category filtering, live search, and seamless pagination.
 
-![NovaTube Preview](https://via.placeholder.com/1200x600/0f0f0f/ffffff?text=NovaTube+Video+Listing+UI)
+**[Demo]:(https://latte-tube.netlify.app/)**
 
 ## Features
 
@@ -38,23 +38,27 @@ src/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/babitakry/NovaTube.git
-   cd NovaTube
+   git clone https://github.com/AsifKhan-tech/React-projects/tree/main/youtube-videos
+   cd youtube-videos
    ```
 
 2. **Install dependencies**
+
    ```bash
-   npm install
+   npm i
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
    ```
@@ -63,4 +67,3 @@ src/
    ```bash
    npm run build
    ```
-
