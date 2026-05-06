@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Quicksand', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #fff5f5 0%, #fff0f0 100%);
+  color: #2d3748;
+  min-height: 100vh;
+}
