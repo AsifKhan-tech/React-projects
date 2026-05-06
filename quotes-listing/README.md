@@ -3,13 +3,14 @@
 **Quotable** is a modern, responsive React application designed to provide users with daily doses of wisdom and inspiration. Built with a focus on performance, modularity, and premium aesthetics, the app fetches real-time data from the FreeAPI quotes endpoint.
 
 ## Live Demo
-- **Deployed Link**: [https://quotable-theta.vercel.app/](https://quotable-theta.vercel.app/)
+
+**[Demo 🌐](https://wisdom-words.netlify.app/)**
 
 ## Features
 
 - **Dynamic Data Fetching**: Seamlessly retrieves quotes from [FreeAPI](https://freeapi.app/) with robust handling for loading and error states.
 - **Custom `useQuotes` Hook**: Encapsulates all data fetching, state management, and pagination logic, ensuring a clean and maintainable codebase.
-- **Premium UI/UX**: 
+- **Premium UI/UX**:
   - Glassmorphism header and vibrant background gradients.
   - Interactive quote cards with hover effects and smooth transitions.
 - **Advanced Pagination**: Navigate through a large collection of quotes with functional "Next/Previous" controls and specific page jumps.
@@ -37,16 +38,19 @@ The project follows a modular, component-based architecture:
 ## Getting Started
 
 1. **Clone the repository**:
+
    ```bash
-   git clone https://github.com/babitakry/Quotable.git
+   git clone https://github.com/AsifKhan-tech/React-projects/tree/main/quotes-listing
    ```
 
 2. **Install dependencies**:
+
    ```bash
-   npm install
+   npm i
    ```
 
 3. **Run the development server**:
+
    ```bash
    npm run dev
    ```
@@ -57,4 +61,5 @@ The project follows a modular, component-based architecture:
    ```
 
 ---
-Built with ❤️ by [Babita Kumari](https://github.com/babitakry)
+
+Built with ❤️ by [Asif Khan](https://github.com/AsifKhan-tech)
