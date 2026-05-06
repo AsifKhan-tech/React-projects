@@ -3,9 +3,11 @@
 A modern, responsive, and eye-catching web application for browsing curated random jokes. Built with React and Tailwind CSS.
 
 ### Live Demo
-[**View the live application here!**](https://jokes-viewer-nine.vercel.app/)
+
+[**View the live application here!**](https://intelligent-jokes.netlify.app/)
 
 ### Features
+
 - **Clean & Modern UI**: A beautiful light theme featuring soft "glassmorphic" elements, smooth gradients, and playful typography (Quicksand font).
 - **Pagination**: Browse through thousands of jokes across multiple pages with intuitive footer navigation.
 - **Copy to Clipboard**: Easily copy your favorite jokes with a single click (with toast notifications!).
@@ -13,6 +15,7 @@ A modern, responsive, and eye-catching web application for browsing curated rand
 - **Responsive Design**: Fully functional and beautiful on desktop, tablet, and mobile devices.
 
 ### Tech Stack
+
 - **React 19**: Component-based UI architecture with custom hooks.
 - **Tailwind CSS v4**: Utility-first styling for rapid, beautiful UI design without writing custom CSS files.
 - **Vite**: Blazing fast frontend build tool.
@@ -23,17 +26,20 @@ A modern, responsive, and eye-catching web application for browsing curated rand
 To run this project locally:
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/babitakry/Jokes-Viewer.git
+   git clone https://github.com/AsifKhan-tech/React-projects/tree/main/jokes-viewer
    ```
 
 2. **Install dependencies:**
+
    ```bash
-   cd "Jokes Viewer"
-   npm install
+   cd "jokes-Viewer"
+   npm i
    ```
 
 3. **Start the development server:**
+
    ```bash
    npm run dev
    ```
