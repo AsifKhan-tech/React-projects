@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-white border-t border-gray-100 py-8 mt-auto">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">
-          ShopVista &copy; {new Date().getFullYear()}
+          Products &copy; {new Date().getFullYear()}
         </p>
       </div>
     </footer>

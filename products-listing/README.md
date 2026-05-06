@@ -1,10 +1,10 @@
-# ShopVista Product Listing App
+# Product Listing App
 
-ShopVista is a modern product listing interface built with React, Vite, and Tailwind CSS. It fetches product data from the FreeAPI and displays it in a professional grid layout.
+`Products` is a modern product listing interface built with React, Vite, and Tailwind CSS. It fetches product data from the FreeAPI and displays it in a professional grid layout.
 
 ## Live Demo
 
-**[View Live Site](https://shop-vista-xi-nine.vercel.app/)**
+**[View Live Site 🌐](https://products-listing-vista.netlify.app/)**
 
 ## Features
 
@@ -46,17 +46,27 @@ src/
 
 ## Getting Started
 
-1. Install dependencies:
+1. Clone the repo:
+
    ```bash
-   npm install
+   git clone https://github.com/AsifKhan-tech/React-projects/tree/main/products-listing
    ```
 
-2. Run locally:
+2. Install dependencies:
+
+   ```bash
+   cd products-listing
+   npm i
+   ```
+
+3. Run locally:
+
    ```bash
    npm run dev
    ```
 
-3. Build for production:
+4. Build for production:
    ```bash
    npm run build
    ```
+5. Open browser and see at: `http://localhost:5173`.

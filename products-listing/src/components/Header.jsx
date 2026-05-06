@@ -1,5 +1,5 @@
 /**
- * Header — top navigation bar with the ShopVista brand logo,
+ * Header — top navigation bar with the Products brand logo,
  * a search input, and a cart text indicator.
  */
 export default function Header({ searchQuery, onSearchChange }) {
@@ -9,7 +9,7 @@ export default function Header({ searchQuery, onSearchChange }) {
         {/* ── Brand ── */}
         <div className="flex items-center gap-2.5 shrink-0">
           <span className="text-xl font-black tracking-tighter bg-gradient-to-r from-violet-700 to-fuchsia-600 bg-clip-text text-transparent select-none uppercase">
-            ShopVista
+            Products
           </span>
         </div>
 
